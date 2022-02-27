@@ -1,0 +1,1 @@
+[{"model": "Book_App.book", "pk": 56, "fields": {"Name": "Physics", "Price": 2589, "Qty": 89, "Is_Active": true}}, {"model": "Book_App.book", "pk": 57, "fields": {"Name": "Hindi", "Price": 258, "Qty": 69, "Is_Active": true}}]

@@ -1,0 +1,73 @@
+In Homepage view
+<QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 03:49:20] INFO In Homepage view
+[2022-02-01 03:49:20] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 03:49:30] INFO In Homepage view
+[2022-02-01 03:49:30] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 11:18:06] INFO In Homepage view
+[2022-02-01 11:18:06] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 11:18:09] INFO <QueryDict: {}>
+[2022-02-01 11:20:57] INFO In Homepage view
+[2022-02-01 11:20:57] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 11:21:21] INFO <QueryDict: {}>
+[2022-02-01 11:21:40] INFO <QueryDict: {}>
+[2022-02-01 11:21:44] INFO In Homepage view
+[2022-02-01 11:21:44] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 11:22:07] INFO In Homepage view
+[2022-02-01 11:22:07] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 14:20:11] INFO In Homepage view
+[2022-02-01 14:20:11] INFO <QuerySet [<Book: Physics>, <Book: Physics>, <Book: Maths>, <Book: Chemistry>, <Book: Geography>]>
+[2022-02-01 14:20:45] INFO In Homepage view
+[2022-02-01 14:20:45] INFO <QuerySet []>
+[2022-02-01 14:20:48] INFO <QueryDict: {}>
+[2022-02-01 14:21:04] INFO In Homepage view
+[2022-02-01 14:21:04] INFO <QuerySet []>
+[2022-02-01 14:21:05] INFO In Homepage view
+[2022-02-01 14:21:05] INFO <QuerySet [<Book: Physics>]>
+[2022-02-01 14:21:06] INFO <QueryDict: {}>
+[2022-02-01 14:21:10] INFO In Homepage view
+[2022-02-01 14:21:10] INFO <QuerySet [<Book: Physics>]>
+[2022-02-01 14:25:32] INFO In Homepage view
+[2022-02-01 14:25:32] INFO <QuerySet [<Book: Physics>]>
+[2022-02-01 14:25:34] INFO In Homepage view
+[2022-02-01 14:25:34] INFO <QuerySet [<Book: Physics>, <Book: Hindi>]>
+[2022-02-01 14:25:36] INFO <QueryDict: {}>
+[2022-02-01 14:27:59] INFO <QueryDict: {}>
+[2022-02-01 14:28:19] INFO In Homepage view
+[2022-02-01 14:28:19] INFO <QuerySet [<Book: Physics>, <Book: Hindi>]>
+[2022-02-01 14:28:22] INFO <QueryDict: {}>
+[2022-02-01 14:28:26] INFO <QueryDict: {}>
+[2022-02-01 14:28:39] INFO <QueryDict: {}>
+[2022-02-01 14:28:40] INFO <QueryDict: {}>
+[2022-02-01 14:28:41] INFO <QueryDict: {}>
+[2022-02-01 14:28:41] INFO <QueryDict: {}>
+[2022-02-01 14:28:42] INFO <QueryDict: {}>
+[2022-02-01 14:28:43] INFO <QueryDict: {}>
+[2022-02-02 11:42:14] INFO In Homepage view
+[2022-02-02 11:42:14] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 11:42:25] INFO <QueryDict: {}>
+[2022-02-02 11:42:27] INFO In Homepage view
+[2022-02-02 11:42:27] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 11:42:32] INFO In Homepage view
+[2022-02-02 11:42:32] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 11:42:47] INFO In Homepage view
+[2022-02-02 11:42:47] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 11:42:48] INFO <QueryDict: {}>
+[2022-02-02 11:42:50] INFO In Homepage view
+[2022-02-02 11:42:50] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 13:18:09] INFO In Homepage view
+[2022-02-02 13:18:09] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 13:18:43] INFO <QueryDict: {}>
+[2022-02-02 13:18:45] INFO In Homepage view
+[2022-02-02 13:18:45] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 13:35:47] INFO <QueryDict: {}>
+[2022-02-02 13:37:29] INFO <QueryDict: {}>
+[2022-02-02 13:38:52] INFO <QueryDict: {}>
+[2022-02-02 14:35:49] INFO In Homepage view
+[2022-02-02 14:35:49] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 17:30:27] INFO In Homepage view
+[2022-02-02 17:30:27] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 18:01:30] INFO In Homepage view
+[2022-02-02 18:01:30] INFO <QuerySet [<Book: Physics>]>
+[2022-02-02 18:44:38] INFO In Homepage view
+[2022-02-02 18:44:38] INFO <QuerySet [<Book: Physics>]>

@@ -1,0 +1,6 @@
+ .gitignore
+B6_Book/__pycache__/
+Book_App/__pycache__/
+Book_App/management/commands/__pycache__/
+Book_App/migrations/__pycache__/
+Book_App/views_0/__pycache__/
