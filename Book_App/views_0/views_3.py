@@ -140,3 +140,5 @@ def Restore_All_Data(request):
 # def fourth_stud(request):
 #     return HttpResponse("fourth stud is Suraj")
 
+def book_add_to_cart(request):
+    print("Book added successfully in a Cart....!!!!")
