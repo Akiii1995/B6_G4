@@ -16,4 +16,6 @@ class Book(models.Model):
         return f"{self.Name}"
 
 
-
+class Book(models.Model):
+    Name = models.CharField(max_length=100)
+    Is_Active = models.BooleanField(default=True)
