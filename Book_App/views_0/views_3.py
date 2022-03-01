@@ -20,6 +20,7 @@ logger = logging.getLogger("first")
 def homepage(request):
     logger.info("In Homepage view")
     all_books = Book.objects.all()  
+    print(all_books)
     logger.info(all_books) 
     # return HttpResponse("Welcome to the First........!!!!!!!!!!")
     # print(request.method)
