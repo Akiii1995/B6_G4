@@ -20,6 +20,7 @@ logger = logging.getLogger("first")
 def homepage(request):
     logger.info("In Homepage view")
     all_books = Book.objects.all()  
+    print(all_books)
     logger.info(all_books) 
     # return HttpResponse("Welcome to the First........!!!!!!!!!!")
     # print(request.method)
@@ -147,3 +148,12 @@ def login_func(request):
     if user:
         login(request,user)
         return HttpResponse("Successfully logged in..!!!!!!")
+
+def soft_delete_one(request,id):                               #just deleting data from the table not from the database
+    '''here we deleting data from the table bt not from database'''
+    if request.method =="GET":
+        book = Book.objects.filter(Is_Active=False)
+        book.delete()
+        return redirect("show_all_books")
+    elif request.method=="POST":
+        return HttpResponse("Error.....!!!")

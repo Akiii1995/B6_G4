@@ -19,3 +19,8 @@ class Book(models.Model):
 class Book(models.Model):
     Name = models.CharField(max_length=100)
     Is_Active = models.BooleanField(default=True)
+
+class Student(models.Model):
+    Name = models.CharField(max_length=100)
+    Is_Active = models.BooleanField(default=True)
+
