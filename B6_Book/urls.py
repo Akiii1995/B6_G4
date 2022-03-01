@@ -18,7 +18,7 @@ from django.urls import path,include,re_path
 from B6_Book.Book_App.views_0 import views_3
 
 from Book_App import views
-# from Book_App import views_0
+from Book_App.views_0 import views_3
 print("in url.py")
 
 
@@ -35,7 +35,7 @@ urlpatterns = [
     # path('Book-order',views.Book_order,name ='Book-order'),
     path('crispy-form',views.crispy_form,name='crispy-form'),
     path('book-adding-cart',views_3.book_add_to_cart,nmae = 'book-add-tp-cart'),
-
+    path('user-login/',views_3.login_func,name = 'user_login'),
     
 
     
