@@ -7,6 +7,7 @@ from django.shortcuts import redirect, render
 import json
 from django.http import JsonResponse
 from Book_App.models import Book
+from django.contrib.auth import login,logout,authenticate
 # Create your views here.
 
 # from django.http import HttpResponse
@@ -99,10 +100,6 @@ def Restore_All_Data(request):
         data=json.load(jsonfile) 
     
     return JsonResponse(data,safe=False)
-
-
-    
-
 # def view_a(request):
 #     return HttpResponse("in view_a")
 
@@ -140,3 +137,13 @@ def Restore_All_Data(request):
 # def fourth_stud(request):
 #     return HttpResponse("fourth stud is Suraj")
 
+def book_add_to_cart(request):
+    print("Book added successfully in a Cart....!!!!")
+
+def login_func(request):
+    username = request.POST.get("username")
+    password = request.POST.get("password")
+    user = authenticate(username,password)
+    if user:
+        login(request,user)
+        return HttpResponse("Successfully logged in..!!!!!!")
